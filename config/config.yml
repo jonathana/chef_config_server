@@ -1,0 +1,9 @@
+chef_config:
+  chef_server_url: #https://enter_your_chef_server_api_endpoint_here/
+  data_bag_encryption_file: #path_to_your_data_bag_encryption_key_file
+encrypted_databags:
+  :production:
+    #- :dbserver
+  :dev:
+    #- :play
+  :test:
